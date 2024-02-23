@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jost:wght@500&family=La+Belle+Aurore&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Jost', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* #home {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10vh;
+}
+
+#question {
+    font-size: 5rem;
+    color: #AD2735;
+    text-align: center;
+    font-family: 'Great Vibes';
+}
+
+#yes-button, #no-button {
+    padding: 1rem;
+    margin: 1rem;
+    width: 14rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 2.4rem;
+    font-family: 'La Belle Aurore';
+}
+
+#no-button {
+    background: #252627;
+    color: white;
+}
+
+#yes-button {
+    background: #AD2735;
+    color: white;
+} */
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    background: #fdfffc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 1rem;
+}
+
+#timer-wrapper {
+    text-align: center;
+}
+
+#timer-header {
+    font-size: 2rem;
+    margin-bottom: 0rem;
+}
+
+#timer {
+    background: black;
+    color: white;
+    width: 90vw;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 4rem;
+}
+
+#distance {
+    font-size: 1.6rem;
+}
